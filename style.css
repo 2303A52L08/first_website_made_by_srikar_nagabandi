@@ -1,0 +1,156 @@
+body
+{
+    background-color: #5CDCA0;
+    text-align: center;
+    justify-align: center;
+    margin:0px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    font-family:"Comic Sans MS", cursive;
+}
+ #fixed
+{
+    background-color:lightblue;
+    border:2px solid;
+    border-radius: 15px; 
+    padding:10px;
+}
+#something 
+{
+    margin:5px;
+    width:190px;
+    height:100px;
+    background-color: orange;
+    justify-content: center;
+    border: 2px dotted;
+    border-radius: 15px;
+    font-family: consolas, monospace;
+    position: fixed;
+    top:0%;
+    left:0%;
+}
+#disp
+{
+    border:5px dotted;
+    border-radius:15px;
+    color:red;
+    background-color:darkblue;
+}
+#testBox
+{
+    font-family: "Comic Sans MS", cursive;
+    color:green;
+    border: 10px solid blue;
+    width:550px;
+    border: 3px solid #73AD21;
+    align-items: center;
+    position:absolute;
+    left:32%;
+    bottom:0px;
+}
+#myPress
+{
+	 margin:auto;
+	 border-radius: 12px;
+     cursor: pointer;
+     border: 6px solid;
+     color:lightgreen;
+     background-color: #007dff;
+     width:250px;
+     font-family: "Comic Sans MS", cursive;
+}
+button#myPress:hover 
+{
+   opacity: 0.7;
+   color:red;
+}
+#myPressi
+{
+	 border-radius: 12px;
+     border: 6px solid;
+     width:250px;
+     color:lightgreen;
+     background-color: #007dff;
+     cursor: pointer;
+     font-family: "Comic Sans MS", cursive;
+     margin:auto;
+}
+button#myPressi:hover 
+{
+   opacity: 0.7;
+   color:red;
+}
+#demo
+{
+	font-family: "Comic Sans MS", cursive;
+}
+.timerBtn 
+{
+    width: 80px;
+    height: 45px;
+    border-radius: 12px;
+    border: 6px solid;
+    color: white; 
+    cursor: pointer;
+    font-family:"Comic Sans MS", cursive;
+    opacity: 0.7;
+}
+button.timerBtn:hover
+{
+	opacity: 1;
+}
+#timeDisplay 
+{
+    margin:10px;
+    font-size:40px;
+    color: #40c437;
+    font-family: consolas, monospace;
+    border:5px solid darkblue;
+    border-width:10px;
+    height:45px;
+    border-radius:25px;
+}
+#timeContainer 
+{
+	width: 280px;
+    height: 140px;
+    text-align: center;
+    border: 4px solid;
+    border-radius: 25px;
+    background-color: #B63CE7;
+    position:fixed;
+    left:70%;
+    bottom:40%;
+}
+#startBtn
+{
+	background-color:lightgreen;
+    color:green;
+}
+#pauseBtn
+{
+	background-color:pink;
+    color:red;
+}
+#resetBtn
+{
+	background-color:lightblue;
+    color:blue;
+}
+#action
+{
+  	margin:5px;
+    width:150px;
+    height:120px;
+    background-color:green;
+    font-weight:bolt;
+    font-size:1.5rem;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    border-radius: 12px;
+    border: 6px solid;
+    cursor: pointer;
+    font-family:"Comic Sans MS", cursive;
+}
